@@ -10,7 +10,7 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(style={'textAlign': 'center', 'fontFamily': 'sans-serif', 'padding': '50px', 'backgroundColor': '#f9f9f9'}, children=[
     
-    html.H1("Pink Morsel Sales Visualizer", style={'color': '#2c3e50'}),
+    html.H1("Pink Morsel Sales Visualizer", id='header', style={'color': '#2c3e50'}),
 
     html.Div([
         html.Label("Select Region:", style={'fontWeight': 'bold', 'marginRight': '10px'}),
